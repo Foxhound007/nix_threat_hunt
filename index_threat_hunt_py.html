@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Linux Threat Hunt Script (Python) | Auroch Security</title>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      color: #5eead4;
+      font-size: 2.4rem;
+    }
+    h2 {
+      color: #60a5fa;
+      border-bottom: 1px solid #3b82f6;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+    pre {
+      background: #1e293b;
+      padding: 1rem;
+      border-left: 4px solid #5eead4;
+      overflow-x: auto;
+    }
+    a {
+      color: #5eead4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Linux Threat Hunt Script (Python Enhanced)</h1>
+  <p><strong>Author:</strong> Charles G. | Auroch Security</p>
+  <p>This Python-based script performs advanced threat hunting tasks across Linux systems using built-in tools and enhanced output parsing.</p>
+
+  <h2>🔍 What It Checks</h2>
+  <ul>
+    <li>Processes running from temp or dev paths</li>
+    <li>User and system cron jobs</li>
+    <li>Hidden files and folders</li>
+    <li>Outbound connections (ss)</li>
+    <li>Persistence indicators (rc.local, systemd, init.d)</li>
+    <li>Non-root UID 0 users</li>
+    <li>SUID/SGID binaries</li>
+    <li>Recently modified config files</li>
+  </ul>
+
+  <h2>🚀 Usage</h2>
+  <pre>sudo python3 linux_threat_hunt_enhanced.py</pre>
+
+  <h2>📄 Documentation</h2>
+  <p><a href="Linux_Threat_Hunt_Enhanced_Guide.docx" target="_blank">Download Guide (DOCX)</a></p>
+
+  <footer style="margin-top:2rem; font-size:0.9rem; color:#94a3b8;">
+    &copy; 2025 Auroch Security | For demonstration and internal audit use.
+  </footer>
+</body>
+</html>
