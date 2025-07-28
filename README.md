@@ -1,6 +1,6 @@
 # 🐍 Linux Threat Hunt Script (Python Enhanced)
 
-**Author:** Charles G. | Auroch Security  
+**Author:** Charles G. 
 **Purpose:** Perform advanced threat hunting on Linux systems using Python for improved control and parsing.
 
 ---
