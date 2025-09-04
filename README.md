@@ -41,6 +41,4 @@ backdooruser has UID 0
 /etc/ssh/sshd_config modified within last 2 days
 ```
 
----
 
-> *This tool is provided by Auroch Security for internal assessments, educational use, and portfolio demonstrations.*
